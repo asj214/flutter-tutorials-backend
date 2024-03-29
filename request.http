@@ -28,3 +28,39 @@ Content-Type: application/json
 GET {{ BASE_URL }}/api/auth/me
 Content-Type: application/json
 Authorization: Bearer {{ token }}
+
+
+###
+GET {{ BASE_URL }}/api/memos
+Content-Type: application/json
+Authorization: Bearer {{ token }}
+
+
+###
+POST {{ BASE_URL }}/api/memos
+Content-Type: application/json
+Authorization: Bearer {{ token }}
+
+{
+  "body": "Hello My First Memo"
+}
+
+###
+GET {{ BASE_URL }}/api/memos/1
+Content-Type: application/json
+Authorization: Bearer {{ token }}
+
+
+###
+PUT {{ BASE_URL }}/api/memos/2
+Content-Type: application/json
+Authorization: Bearer {{ token }}
+
+{
+  "body": "Me, Too!!! !!! "
+}
+
+###
+DELETE {{ BASE_URL }}/api/memos/2
+Content-Type: application/json
+Authorization: Bearer {{ token }}
