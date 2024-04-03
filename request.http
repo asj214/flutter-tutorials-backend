@@ -42,7 +42,7 @@ Content-Type: application/json
 Authorization: Bearer {{ token }}
 
 {
-  "body": "Hello My First Memo"
+  "body": "Another User Modify Test Memo"
 }
 
 ###
@@ -52,12 +52,12 @@ Authorization: Bearer {{ token }}
 
 
 ###
-PUT {{ BASE_URL }}/api/memos/2
+PUT {{ BASE_URL }}/api/memos/5
 Content-Type: application/json
 Authorization: Bearer {{ token }}
 
 {
-  "body": "Me, Too!!! !!! "
+  "body": "You Are Bad Man"
 }
 
 ###
