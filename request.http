@@ -64,3 +64,14 @@ Authorization: Bearer {{ token }}
 DELETE {{ BASE_URL }}/api/memos/2
 Content-Type: application/json
 Authorization: Bearer {{ token }}
+
+###
+GET {{ BASE_URL }}/api/hiragana
+Content-Type: application/json
+Authorization: Bearer {{ token }}
+
+
+###
+GET {{ BASE_URL }}/api/hiragana/practice
+Content-Type: application/json
+Authorization: Bearer {{ token }}
